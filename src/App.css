@@ -8,6 +8,15 @@ body{
 h1{
   text-decoration: underline;
 }
+.mydiv{
+  height: 400px;
+  width: 400px;
+  background-color: brown;
+  text-align: center;
+  position: relative;
+  left: 35%;
+  border-radius: 25px;
+}
 label{
   font-size: 27px;
   margin-right: 20px;
@@ -50,7 +59,7 @@ button:hover{
   justify-content: space-evenly;
 }
 #output{
-  background-color: plum;
+  background-color: lightgreen;
   padding:10px;
   height: 60px;
   font-weight: bold;

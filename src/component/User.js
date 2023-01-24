@@ -62,7 +62,7 @@ const User = () => {
     }
     else {
         return (
-            <div>
+            <div className='mydiv'>
                 <form >
                     <label htmlFor="name" style={{ marginLeft: "62px" }} >Name :</label>
                     <input type="text" name="Name1" id="name" value={state.Name1} onChange={handleInputs} /> <br /> <br />
